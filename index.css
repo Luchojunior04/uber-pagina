@@ -189,6 +189,10 @@ h4{
     font-size: medium;
 }
 
+#ri2:hover{
+  background-color: transparent;
+}
+
 P{
     font-size: small;
 }
@@ -197,7 +201,7 @@ P{
 footer{
     padding: 0px 100px;
     background-color: black;
-    height: 600px;
+    height: 870px;
 }
 
 h5{
@@ -205,10 +209,14 @@ h5{
     margin-top: 100px;
     font-size: x-large;
     font-weight: lighter;
+    margin-bottom: 40px;
 }
 
 h6{
     color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .footer{
@@ -216,3 +224,175 @@ h6{
     flex-direction: column;
     margin-bottom: 50px;
 }
+
+#Visi{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    max-width: 200px;
+    height: 65px;
+    transition: all 0.9s ease;
+}
+
+
+#Visi:hover{
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.compa{
+    display: flex;
+    max-width: 1152px;
+    height: 296px;
+    
+}
+
+.compañia{
+    display: flex;
+    flex-direction: column;
+    height: 296px;
+    width: 100%;
+    max-width: 290px;
+}
+
+.produc{
+    display: flex;
+    flex-direction: column;
+    height: 296px;
+     width: 100%;
+    max-width: 290px;
+}
+
+
+.cuida{
+    display: flex;
+    flex-direction: column;
+    height: 296px;
+    width: 100%;
+    max-width: 290px;
+}
+
+
+.viaje{
+    display: flex;
+    flex-direction: column;
+    height: 296px;
+    width: 100%;
+    max-width: 290px;
+    
+
+}
+
+#com, #pro, #Cui, #via{
+    text-decoration: none;
+    margin-top: 15px;
+    color: white;
+    font-size: 100;
+    width: 70%;
+}
+
+#com , #pro , #Cui , #via:hover{
+
+   background-color: transparent;
+   
+}
+
+
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.redes{
+    display: flex;
+    max-width: 558px;
+    height: 72px;   
+    background-color: black;
+    
+
+}
+
+.ubicacion{
+    display: flex;
+    max-width: 558px;
+    height: 72px;  
+    background-color: black;
+}
+
+#soci svg{
+    height: 30px;
+    width: 18px;
+    margin: 10px;
+    vertical-align: middle;
+    color: white;    
+}
+
+#soci{
+    border-radius: 10px;
+    height: 50px;
+    transition: all 0.9s ease;
+}
+
+#socil{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    height: 50px;
+    transition: all 0.9s ease;
+    
+}
+
+#socil svg{
+    height: 30px;
+    width:  18px;
+    margin: 10px;
+    vertical-align: middle;
+    color: white;    
+}
+
+
+
+.aplicaciones{
+    max-width: 558px;
+    height: 54.77px;
+    margin-top: 45px;
+}
+
+
+#google{
+    height: 37.92px;
+    max-width: 127.98px;
+    
+}
+
+#api:hover{
+    background-color: transparent;
+}
+
+.ultimo{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: x-small;
+    margin-top: 40px;
+   
+}
+
+#ulti{
+
+    text-decoration: none;
+    color: white;
+    margin: 18px;
+    border-radius: 5px;
+}
+
+#ult{
+    display: flex;
+
+}
+
